@@ -9,7 +9,9 @@
 
 typedef uint8_t			byte_t;
 
+#define MRTP_INLINE			inline
 #define MRTP_EXTERN_METHOD extern
+#define MRTP_PUBLIC			
 
 MRTP_EXTERN_METHOD uint64_t mrtp_wallclock();
 MRTP_EXTERN_METHOD uint64_t mrtp_uptime();
